@@ -41,6 +41,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
         include
         ${OpenCV_INCLUDE_DIRS}
         ${catkin_INCLUDE_DIRS}
+        ${CUDA_INCLUDE_DIRS}
         )
 target_link_libraries(${PROJECT_NAME}
         ${OpenCV_LIBRARIES}
